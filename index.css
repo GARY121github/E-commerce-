@@ -703,3 +703,22 @@ footer a:hover{
     color: #fff;
 }
 
+#pagination{
+    text-align: center;
+}
+
+#pagination > a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+
+#pagination > a > img{
+    width : 16px;
+    margin-top: 2px;
+
+
+}
