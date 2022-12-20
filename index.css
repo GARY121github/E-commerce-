@@ -695,6 +695,19 @@ footer a:hover {
         padding: 40px 20px;
     }
 
+    /* SINGLE PRODUCT */
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails single-pro-image{
+        width : 100%;
+        margin-right: 0px;
+    }
+    #prodetails .single-pro-details{
+        width : 100%;
+    }
 
 }
 
@@ -797,3 +810,5 @@ footer a:hover {
 #prodetails .single-pro-details span{
     line-height: 25px;
 }
+
+/* https://www.youtube.com/watch?v=99muDSuP55s */

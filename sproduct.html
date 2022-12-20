@@ -207,22 +207,24 @@
 
     <!-- JS -->
     <script>
-        var MainImg = document.getElementById("MainImg");
-        var smallimg = document.getElementByClassName("small-img");
+        let MainImg = document.getElementById("MainImg");
+        let SmallImg = document.getElementsByClassName("small-img");
 
-        smallimg[0].onclick = function(){
-        MainImg.src = smallimg[0].src;
+        // console.log(SmallImg);
+        // console.log(MainImg);
+
+        SmallImg[0].onclick = function(){
+            MainImg.src = SmallImg[0].src;
         }
-        smallimg[1].onclick = function(){
-        MainImg.src = smallimg[1].src;
+        SmallImg[1].onclick = function(){
+            MainImg.src = SmallImg[1].src;
         }
-        smallimg[2].onclick = function(){
-        MainImg.src = smallimg[2].src;
+        SmallImg[2].onclick = function(){
+            MainImg.src = SmallImg[2].src;
         }
-        smallimg[3].onclick = function(){
-        MainImg.src = smallimg[3].src;
+        SmallImg[3].onclick = function(){
+            MainImg.src = SmallImg[3].src;
         }
     </script>
 </body>
-
 </html>
