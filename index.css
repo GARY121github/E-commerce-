@@ -900,3 +900,9 @@ footer a:hover {
         width: 100%;
     }
 }
+
+/* ABOUT PAGE */
+
+#page-header.about-header{
+    background-image : url("img/about/banner.png");
+}
